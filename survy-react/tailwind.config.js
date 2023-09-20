@@ -3,9 +3,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{html,js}',
-    "../src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  theme:{
+    extend:{},
+  },
   plugins : [
     require('flowbite/plugin'),
     require('@tailwindcss/forms'),
