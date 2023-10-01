@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Survey() {
+export default function DefaultLayout() {
   return (
     <div>
-      survy
+      
     </div>
   )
 }
